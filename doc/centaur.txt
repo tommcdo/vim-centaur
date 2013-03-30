@@ -1,0 +1,21 @@
+*centaur.txt*  Vertically center text objects in the viewport
+
+Author: Tom McDonald <http://github.com/tommcdo>
+License: Same terms as Vim itself (see |license|)
+
+This plugin is only available if 'compatible' is not set.
+
+INTRODUCTION                                    *centaur*
+
+Centaur allows you to vertically center a text object in the viewport.
+The viewport will be scrolled so that the block of lines defined by the
+text object are positioned in the middle of the viewport, or, in the
+case that the text object spans more lines than are available in the
+viewport, the first line of the text object will be scrolled to the top
+of the viewport.
+
+MAPPINGS                                        *centaur-mappings*
+
+                                                *gz*
+gz{motion}              Vertically center the block of lines defined by
+                        {motion} in the viewport.
