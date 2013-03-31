@@ -2,7 +2,7 @@ centaur.vim
 ===========
 
 Centaur.vim defines a Vim operator to vertically center the block of
-lines defined by a motion command on the screen. That is, the mathing
+lines defined by a motion command on the screen. That is, the matching
 lines will be scrolled nicely into view.
 
 For example, to vertically center a paragraph, you'd type `gzip` (`gz`
