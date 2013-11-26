@@ -23,6 +23,6 @@ function! s:center(type, ...)
 endfunction
 
 nnoremap <silent> <Plug>Center :<C-U>set opfunc=<SID>center<CR>g@
-vnoremap <silent> <Plug>VCenter :<C-U>call <SID>center(visualmode(), 1)<CR>
+vnoremap <silent> <Plug>VCenter :<C-U>call <SID>center(visualmode(), 1)<CR>gv
 nmap <silent> gz <Plug>Center
 vmap <silent> gz <Plug>VCenter
